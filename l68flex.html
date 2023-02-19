@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <h1>This is tailwind css</h1>
+
+    <div class="flex flex-row bg-red-500 text-white">
+        <div class="w-44 h-20 flex-none bg-orange-500">Div1</div>
+        <div class="w-44 h-20 bg-amber-500">Div2</div>
+        <div class="w-44 h-20 bg-yellow-500">Div3</div>
+        <div class="w-44 h-20 bg-lime-500">Div4</div>
+    </div>
+
+    <hr class="my-4" />
+
+    <div class="flex flex-row bg-red-500 text-white">
+        <div class="w-44 h-20 flex-auto bg-orange-500">Div1</div>
+        <div class="w-44 h-20 bg-amber-500">Div2</div>
+        <div class="w-44 h-20 bg-yellow-500">Div3</div>
+        <div class="w-44 h-20 bg-lime-500">Div4</div>
+    </div>
+
+
+    <hr class="my-4" />
+
+    <div class="flex flex-row bg-red-500 text-white">
+        <div class="w-44 h-20 flex-1 bg-orange-500">Div1</div>
+        <div class="w-44 h-20 bg-amber-500">Div2</div>
+        <div class="w-44 h-20 bg-yellow-500">Div3</div>
+        <div class="w-44 h-20 bg-lime-500">Div4</div>
+    </div>
+
+
+    <hr class="my-4" />
+
+    <div class="flex flex-row bg-red-500 text-white">
+        <div class="w-44 h-20 flex-initial bg-orange-500">Div1</div>
+        <div class="w-44 h-20 bg-amber-500">Div2</div>
+        <div class="w-44 h-20 bg-yellow-500">Div3</div>
+        <div class="w-44 h-20 bg-lime-500">Div4</div>
+    </div>
+
+
+    <hr class="my-4" />
+
+    <div class="flex flex-row bg-red-500 text-white">
+        <div class="w-44 h-20 grow bg-orange-500">Div1</div>
+        <div class="w-44 h-20 bg-amber-500">Div2</div>
+        <div class="w-44 h-20 bg-yellow-500">Div3</div>
+        <div class="w-44 h-20 bg-lime-500">Div4</div>
+    </div>
+
+
+    <hr class="my-4" />
+
+    <div class="flex flex-row bg-red-500 text-white">
+        <div class="w-44 h-20 grow-0 bg-orange-500">Div1</div>
+        <div class="w-44 h-20 bg-amber-500">Div2</div>
+        <div class="w-44 h-20 bg-yellow-500">Div3</div>
+        <div class="w-44 h-20 bg-lime-500">Div4</div>
+    </div>
+
+
+    <hr class="my-4" />
+
+    <div class="flex flex-row bg-red-500 text-white">
+        <div class="w-44 h-20 shrink bg-orange-500">Div1</div>
+        <div class="w-44 h-20 bg-amber-500">Div2</div>
+        <div class="w-44 h-20 bg-yellow-500">Div3</div>
+        <div class="w-44 h-20 bg-lime-500">Div4</div>
+    </div>
+
+
+    <hr class="my-4" />
+
+    <div class="flex flex-row bg-red-500 text-white">
+        <div class="w-44 h-20 shrink-0 bg-orange-500">Div1</div>
+        <div class="w-44 h-20 bg-amber-500">Div2</div>
+        <div class="w-44 h-20 bg-yellow-500">Div3</div>
+        <div class="w-44 h-20 bg-lime-500">Div4</div>
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- 
+    flex-none      flex:none;
+    flex-auto      flex:1 1 auto;
+    flex-1
+    flex-initial  (default)
+-->
+
+
+<!--
+    grow         flex-grow : 1;    (flex-auto)
+    grow-0       flex-grow : 0;    (flex-initial)
+
+    shrink       flex-shrink : 1;  (flex-initial)
+    shrink-0     flex-shrink : 0;  (flex-none)
+ -->
