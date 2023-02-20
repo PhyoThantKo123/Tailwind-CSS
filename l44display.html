@@ -34,6 +34,15 @@
 <body>
     <h3>This is tailwind css</h3>
 
+    <h1 class="inline bg-purple-500 text-white">Hey i am web developer</h1>
+    <h1 class="inline-block bg-cyan-500 text-white">using frontend html, css, js, jq, bs and tw </h1>
+    <span class="block bg-sky-500 text-white">using backend php</span>
+
+    <hr class="my-8" />
+
+
+    <h4>Justify-cotent (P)</h4>
+
     <div class="box flex justify-start ">
         <div class="div bg-violet-500"></div>
         <div class="div bg-lime-500"></div>
@@ -59,7 +68,58 @@
         <div class="div bg-lime-500"></div>
     </div>
 
-    <hr/>
+    <hr class="my-8" />
+
+
+
+
+    <h4 class="mb-5">justify-items (G) (P)</h4>
+
+    <div class="w-1/2 grid justify-items-center  bg-sky-500">
+        <div class="w-44 h-20 bg-pink-500"></div>
+        <div class="w-44 h-20 bg-rose-500"></div>
+    </div>
+
+
+
+
+
+    <hr class="my-8" />
+
+
+
+
+    <h4 class="mb-5">justify-self (G) (C)</h4>
+
+    <div class="w-1/2 grid justify-items-center  bg-sky-500 mb-4">
+        <div class="w-44 h-20 justify-self-start bg-pink-500"></div>
+        <div class="w-44 h-20 bg-rose-500"></div>
+    </div>
+
+
+    <div class="w-1/2 grid justify-items-center  bg-sky-500 mb-4">
+        <div class="w-44 h-20 justify-self-auto bg-pink-500"></div>
+        <div class="w-44 h-20 bg-rose-500"></div>
+    </div>
+
+    <div class="w-1/2 grid justify-items-center  bg-sky-500 mb-4">
+        <div class="w-44 h-20 justify-self-end bg-pink-500"></div>
+        <div class="w-44 h-20 bg-rose-500"></div>
+    </div>
+
+    <div class="w-1/2 grid justify-items-center  bg-sky-500 mb-4">
+        <div class="w-44 h-20 justify-self-stretch bg-pink-500"></div>
+        <div class="w-44 h-20 bg-rose-500"></div>
+    </div>
+
+
+
+
+    <hr class="my-8" />
+
+
+
+    <h4>align-items</h4>
 
     <div class="b-box bg-black flex justify-center items-start">
         <div class="div bg-indigo-500"></div>
@@ -77,9 +137,99 @@
     </div>
 
 
-    <h1 class="inline bg-purple-500 text-white">Hey i am web developer</h1>
-    <h1 class="inline-block bg-cyan-500 text-white">using frontend html, css, js, jq, bs and tw </h1>
-    <span class="block bg-sky-500 text-white">using backend php</span>
+
+    <hr class="my-8">
+
+    <h4>align-self (F) (C) </h4>
+
+
+    <div class="w-1/2 h-56 flex justify-center items-center  bg-sky-500 mb-4">
+        <div class="w-44 h-20 bg-pink-500"></div>
+        <div class="w-44 h-20 self-start bg-rose-500"></div>
+    </div>
+
+
+    <div class="w-1/2 h-56 flex justify-center items-center  bg-sky-500 mb-4">
+        <div class="w-44 h-20 bg-pink-500"></div>
+        <div class="w-44 h-20 self-center bg-rose-500"></div>
+    </div>
+
+
+    <div class="w-1/2 h-56 flex justify-center items-center  bg-sky-500 mb-4">
+        <div class="w-44 h-20 bg-pink-500"></div>
+        <div class="w-44 h-20 self-end bg-rose-500"></div>
+    </div>
+
+    <div class="w-1/2 h-56 flex justify-center items-center  bg-sky-500 mb-4">
+        <div class="w-44 h-20 bg-pink-500"></div>
+        <div class="w-44 h-20 self-stretch bg-rose-500"></div>
+    </div>
+
+
+
+    <hr class="my-8">
+
+    <h4>align-content (G) (P) </h4>
+
+
+    <div class="w-1/2 h-64 grid grid-cols-3 content-center bg-green-500 mb-8 text-white">
+        <div class="w-44 h-20 bg-emerald-500">Div1</div>
+        <div class="w-44 h-20 bg-teal-500">Div2</div>
+        <div class="w-44 h-20 bg-cyan-500">Div3</div>
+        <div class="w-44 h-20 bg-sky-500">Div4</div>
+    </div>
+
+
+    <div class="w-1/2 h-64 grid grid-cols-3 content-start bg-green-500 text-white mb-8">
+        <div class="w-44 h-20 bg-emerald-500">Div1</div>
+        <div class="w-44 h-20 bg-teal-500">Div2</div>
+        <div class="w-44 h-20 bg-cyan-500">Div3</div>
+        <div class="w-44 h-20 bg-sky-500">Div4</div>
+    </div>
+
+
+    <div class="w-1/2 h-64 grid grid-cols-3 content-end bg-green-500 text-white mb-8">
+        <div class="w-44 h-20 bg-emerald-500">Div1</div>
+        <div class="w-44 h-20 bg-teal-500">Div2</div>
+        <div class="w-44 h-20 bg-cyan-500">Div3</div>
+        <div class="w-44 h-20 bg-sky-500">Div4</div>
+    </div>
+
+
+    <div class="w-1/2 h-64 grid grid-cols-3 content-between bg-green-500 text-white mb-8">
+        <div class="w-44 h-20 bg-emerald-500">Div1</div>
+        <div class="w-44 h-20 bg-teal-500">Div2</div>
+        <div class="w-44 h-20 bg-cyan-500">Div3</div>
+        <div class="w-44 h-20 bg-sky-500">Div4</div>
+    </div>
+
+
+    <div class="w-1/2 h-64 grid grid-cols-3 content-evenly bg-green-500 text-white mb-8">
+        <div class="w-44 h-20 bg-emerald-500">Div1</div>
+        <div class="w-44 h-20 bg-teal-500">Div2</div>
+        <div class="w-44 h-20 bg-cyan-500">Div3</div>
+        <div class="w-44 h-20 bg-sky-500">Div4</div>
+    </div>
+
+    <div class="w-1/2 h-64 grid grid-cols-3 content-around bg-green-500 text-white mb-8">
+        <div class="w-44 h-20 bg-emerald-500">Div1</div>
+        <div class="w-44 h-20 bg-teal-500">Div2</div>
+        <div class="w-44 h-20 bg-cyan-500">Div3</div>
+        <div class="w-44 h-20 bg-sky-500">Div4</div>
+    </div>
+
+
+    <div class="w-1/2 h-64 grid grid-cols-3 content-baseline bg-green-500 text-white mb-8">
+        <div class="w-44 h-20 bg-emerald-500">Div1</div>
+        <div class="w-44 h-20 bg-teal-500">Div2</div>
+        <div class="w-44 h-20 bg-cyan-500">Div3</div>
+        <div class="w-44 h-20 bg-sky-500">Div4</div>
+    </div>
+
+
+
+
+
 </body>
 
 </html>
@@ -100,10 +250,52 @@
     justify-content:space-around;        justify-around
     justify-content:space-evenly;        justify-evenly;
 
+
+    ------------------------------
+
+    justify-items : start;               justify-items-start
+    justify-items : center;              justify-items-center
+    justify-items : end;                 justify-items-end
+    justify-items : stretch;             justify-items-stretch
+
+    ------------------------------
+
+    justify-self : auto;                 justify-self-auto
+    justify-self : start;                justify-self-start
+    justify-self : center;               justify-self-center
+    justify-self : end;                  justify-self-end
+    justify-self : stretch;              justify-self-stretch
+
     ------------------------------
 
     align-items:start;                   items-start
     align-items:end;                     items-end
     align-items:center;                  items-center
+
+
+    ---------------------------------
+
+
+    align-self : auto;                   self-auto
+    align-self : start;                  self-start
+    align-self : center;                 self-center
+    align-self : end;                    self-end
+    align-self : stretch;                self-stretch
+    align-self : baseline;               self-baseline
+
+
+    ---------------------------------
+
+
+    align-content : flex-start;          content-start
+    align-content : center;              content-center
+    align-content : flex-end;            content-end
+
+
+    align-content : space-between;       content-between
+    align-content : space-evenly;        content-evenly
+    align-content : space-around;        content-around
+    align-content : baseline;            content-baseline
+
 
 -->
